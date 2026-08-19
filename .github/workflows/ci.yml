@@ -16,7 +16,7 @@ jobs:
 
       - name: Check required file exists
         run: |
-          if [ -f " tinnu.txt" ]; then
+          if [ -f "tinnu.txt" ]; then
             echo "tinnu.txt found - check passed!"
           else
             echo "tinnu.txt missing - failing build!"
